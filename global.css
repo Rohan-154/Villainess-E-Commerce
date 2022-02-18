@@ -4,6 +4,9 @@
     --underline-color: #2B3784;
     --E-primary-color: #B11313;
 }
+body{
+    overflow-x: scroll;
+}
 
 .text-align-center{
     text-align: center;
@@ -20,4 +23,14 @@ h2{
 .bolder{
    font-weight:900;
    font-size: 1.5rem;
+}
+.top-margin-7rem{
+    margin-top: 7rem;
+}
+.no-opacity{
+    opacity: 1;
+}
+
+h3{
+    color: var(--text-color);
 }
