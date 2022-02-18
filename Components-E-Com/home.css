@@ -1,0 +1,28 @@
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.shop-main{
+    display: grid;
+    grid-gap: 10px;
+    /* background-color: aqua; */
+    grid-template-columns: repeat(6,1fr);
+    /* grid-template-rows: repeat(3, minmax(300px,auto)); */
+}
+.home-hero{
+    grid-column: 1 / 7;
+    background-color: red;
+    background-image: url("/wallpapersden.com_marvel-s-avengers-4k-ultra-hd_3840x2160.jpg");
+    background-size: 100% 100%;
+    min-height: 350px;
+}
+.feature-categories{
+    grid-column: 2 / 6;
+    background-color: blue;
+}
+.feature-brands{
+    grid-column: 2 / 6;
+    background-color: blueviolet;
+}
