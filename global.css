@@ -1,0 +1,23 @@
+@import url("/Components-E-Com/home.css");
+
+:root{
+    --underline-color: #2B3784;
+    --E-primary-color: #B11313;
+}
+
+.text-align-center{
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+}
+.short-underline{
+    background-color: var(--underline-color);
+    width: 10rem;
+    height: .5rem;
+    margin: .5rem auto 2rem;
+}
+.bolder{
+   font-weight:900;
+   font-size: 1.5rem;
+}
