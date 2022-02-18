@@ -92,4 +92,5 @@
 }
 .card-container{
     width: 300px;
+    background-color: var(--body-bg-color);
 }
