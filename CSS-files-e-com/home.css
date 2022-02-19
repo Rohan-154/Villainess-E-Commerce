@@ -115,6 +115,3 @@
 .hover-underline:hover{
   color: var(--primary-color);
 }
-.footer-basic{
-    background-color: rgba(128, 128, 128, 0.068)
-}
