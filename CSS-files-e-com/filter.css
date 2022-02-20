@@ -1,0 +1,33 @@
+.filter-class {
+    display: flex;
+    justify-content: space-between;
+    margin: 8rem 2rem 1rem;
+}
+
+.filter-wrapper {
+    max-width: 20rem;
+}
+
+.list-filter-wrap {
+    margin: 0rem 2rem 1rem;
+}
+
+.filter-ul>li {
+    list-style: none;
+    padding: .5rem;
+}
+
+.grid-layout-3-col {}
+
+.flex-wrap-shop {
+    display: flex;
+}
+
+.all-card-collection {
+    margin: 7rem 3rem 0rem;
+}
+
+.basic-image {
+    /* object-fit: cover; */
+     width: 100%; object-fit: contain
+}

@@ -1,6 +1,7 @@
 @import url("/CSS-files-e-com/home.css");
 @import url("/CSS-files-e-com/login.css");
 @import url("/CSS-files-e-com/signup.css");
+@import url("/CSS-files-e-com/filter.css");
 
 :root{
     --underline-color: #2B3784;
@@ -37,8 +38,13 @@ h3{
     color: var(--text-color);
 }
 .footer-basic{
-    background-color: rgba(128, 128, 128, 0.068)
+    background-color: rgba(128, 128, 128, 0.068);
 }
 .margin-top1rem{
     margin-top: 1rem;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color: var(--underline-color);
+    text-underline-position: under;
 }
