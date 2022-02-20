@@ -3,47 +3,56 @@
 @import url("/CSS-files-e-com/signup.css");
 @import url("/CSS-files-e-com/filter.css");
 
-:root{
+:root {
     --underline-color: #2B3784;
     --E-primary-color: #B11313;
 }
-body{
+
+body {
     overflow-x: scroll;
 }
 
-.text-align-center{
+.text-align-center {
     text-align: center;
 }
-h2{
+
+h2 {
     font-size: 2.5rem;
 }
-.short-underline{
+
+.short-underline {
     background-color: var(--underline-color);
     width: 10rem;
     height: .5rem;
     margin: .5rem auto 2rem;
 }
-.bolder{
-   font-weight:900;
-   font-size: 1.5rem;
+
+.bolder {
+    font-weight: 900;
+    font-size: 1.5rem;
 }
-.top-margin-7rem{
+
+.top-margin-7rem {
     margin-top: 7rem;
 }
-.no-opacity{
+
+.no-opacity {
     opacity: 1;
 }
 
-h3{
+h3 {
     color: var(--text-color);
 }
-.footer-basic{
+
+.footer-basic {
     background-color: rgba(128, 128, 128, 0.068);
 }
-.margin-top1rem{
+
+.margin-top1rem {
     margin-top: 1rem;
 }
-.underline{
+
+.underline {
     text-decoration: underline;
     text-decoration-color: var(--underline-color);
     text-underline-position: under;
