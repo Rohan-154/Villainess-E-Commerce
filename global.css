@@ -58,3 +58,6 @@ h3 {
     text-decoration-color: var(--underline-color);
     text-underline-position: under;
 }
+*{
+    letter-spacing: .8px;
+}

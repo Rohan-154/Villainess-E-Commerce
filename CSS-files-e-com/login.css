@@ -38,6 +38,7 @@
     cursor: pointer;
     line-height: 1rem;
     font-size:medium;
+    padding: .5rem;
 }
 .login-test{
     border: 1px solid var(--danger-message-color);
