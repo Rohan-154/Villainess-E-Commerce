@@ -10,4 +10,4 @@
 - [Login Page](https://villainess-e-store.netlify.app/components-e-com/login)
 
 ## Preview
-![preview](./)
+![preview](./Villainess-E-Commerce/Assets/preview-gif.gif)
