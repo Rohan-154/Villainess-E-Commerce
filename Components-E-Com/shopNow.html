@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Villainess | Product-Listing</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico.png">
     <link rel="stylesheet" href="https://villainess-cl-154.netlify.app/Components/Villainess.css" />
     <script src="https://kit.fontawesome.com/79dfc2e9eb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/CSS-files-e-com/filter.css">
@@ -25,7 +26,7 @@
         <div class="land-navbar-links">
             <ul class="ul-landing-page">
                 <li class="li-landing-page">
-                    <a href="/" class="landing-page-link"> Home </a>
+                    <a href="/Components-E-Com/Home-Page/index.html" class="landing-page-link"> Home </a>
                 </li>
                 <li class="li-landing-page">
                     <a href="/Components-E-Com/shopNow.html" class="landing-page-link">
@@ -42,10 +43,10 @@
             <a href="/Components-E-Com/login.html" class="social-landing-page flex-column">
                 <i class="fa-solid fa-user fa-lg"></i> Login
             </a>
-            <a href="https://twitter.com/Rohan_415?s=09" class="social-landing-page flex-column">
+            <a href="/Components-E-Com/wishlist.html" class="social-landing-page flex-column">
                 <i class="fa-solid fa-heart fa-lg"></i> Wishlist
             </a>
-            <a href="https://www.linkedin.com/in/rohan-dubey-2854b9201/" class="social-landing-page flex-column">
+            <a href="/Components-E-Com/cart.html" class="social-landing-page flex-column">
                 <i class="fa-solid fa-cart-shopping fa-lg"></i> Cart
             </a>
         </div>
@@ -62,8 +63,30 @@
                 <a href="" class="create-acc">CLEAR ALL</a>
             </div>
             <hr />
+            
             <div class="list-filter-wrap">
                 <ul class="filter-ul">
+                    <li>
+                        <h3 class="underline">Price</h3>
+                    </li>
+                    <li><div class="slider">
+                        <input type="range" min="0" max="1000" step="100" list="range-labeller" class="slider-ranger"/>
+        
+                        <datalist id="range-labeller">
+                            <option value="0"></option>
+                            <option value="100">0%</option>
+                            <option value="200"></option>
+                            <option value="300"></option>
+                            <option value="400"></option>
+                            <option value="500">50%</option>
+                            <option value="600"></option>
+                            <option value="700"></option>
+                            <option value="800"></option>
+                            <option value="900"></option>
+                            <option value="1000">100%</option>
+                            <option></option>
+                        </datalist>
+                    </div></li>
                     <li>
                         <h3 class="underline">Sort</h3>
                     </li>
@@ -76,6 +99,33 @@
                     <li>
                         <label for="filter-label" class="label-selector">
                             <input type="radio" name="sort" value="lowToHigh"> Price Low to High
+                        </label>
+                    </li>
+                    <div class="spacer-1rem"></div>
+                    <hr />
+                    <div class="spacer-1rem"></div>
+                    <li>
+                        <h3 class="underline">Customer Rating </h3>
+                    </li>
+                    <div class="spacer-1rem"></div>
+                    <li>
+                        <label for="filter-label" class="label-selector">
+                            <input type="checkbox" class="checkbox-select"> 4 <i class="fa-solid fa-star"></i> & above
+                        </label>
+                    </li>
+                    <li>
+                        <label for="filter-label" class="label-selector">
+                            <input type="checkbox" class="checkbox-select"> 3 <i class="fa-solid fa-star"></i> & above
+                        </label>
+                    </li>
+                    <li>
+                        <label for="filter-label" class="label-selector">
+                            <input type="checkbox" class="checkbox-select"> 2 <i class="fa-solid fa-star"></i> & above
+                        </label>
+                    </li>
+                    <li>
+                        <label for="filter-label" class="label-selector">
+                            <input type="checkbox" class="checkbox-select"> 1 <i class="fa-solid fa-star"></i> & above
                         </label>
                     </li>
                     <div class="spacer-1rem"></div>

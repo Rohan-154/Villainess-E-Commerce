@@ -58,3 +58,6 @@ flex-direction: column;
 .btn-primary-card:hover{
     color: var(--danger-message-color);
 }
+.slider-ranger{
+    width: 17rem;
+}
