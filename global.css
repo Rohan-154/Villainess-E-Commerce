@@ -61,3 +61,13 @@ h3 {
 *{
     letter-spacing: .8px;
 }
+@media screen and (max-width: 768px) {
+.land-social-link-nav{
+  top: 0;
+  bottom: 0.55rem;
+}
+.land-quote-div{
+    display: none;
+}
+}
+
